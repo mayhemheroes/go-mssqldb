@@ -1,0 +1,4 @@
+project: go-mssqldb
+target: go-mssqldb-batch-fuzz
+cmds:
+  - cmd: ./batch-fuzz.libfuzzer
